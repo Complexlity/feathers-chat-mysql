@@ -1,0 +1,19 @@
+{
+  "port": {
+    "__name": "PORT",
+    "__format": "8080"
+  },
+  "host": "localhost",
+  "authentication": {
+    "secret": "FEATHERS_SECRET",
+    "oauth": {
+      "defaults": {
+        "origin": "FEATHERS_ORIGIN"
+      },
+      "github": {
+        "key": "GITHUB_CLIENT_ID",
+        "secret": "GITHUB_CLIENT_SECRET"
+      }
+    }
+  }
+}
